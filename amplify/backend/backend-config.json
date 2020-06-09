@@ -1,10 +1,9 @@
 {
 	"auth": {
-		"yourshare43dcd5bd": {
+		"yourshare0fffa143": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
+			"dependsOn": []
 		}
 	}
 }
