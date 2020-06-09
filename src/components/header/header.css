@@ -1,0 +1,42 @@
+/* The navigation bar */
+.nav {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(219, 219, 219);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 54px;
+}
+
+.nav-list {
+    display: inline-block;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    max-width: 975px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 16px 32px;
+}
+
+nav a.nav-a:hover,
+nav a:not(.nav-a) {
+    text-shadow: 0 0 0.2px black, 0 0 .2px black, 0 0 .2px black;
+    text-decoration: none;
+    color: black;
+}

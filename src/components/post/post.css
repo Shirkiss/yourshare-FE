@@ -1,0 +1,61 @@
+.post-body {
+    background-color:rgb(255, 255, 255);
+    border-bottom-color:rgb(219, 219, 219);
+    align-items:stretch;
+    margin-bottom: 60px;
+    box-sizing:border-box;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color:rgb(219, 219, 219);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(219, 219, 219);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(219, 219, 219);
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-top-style:solid;
+    border-top-width:1px;
+    display:flex;
+    flex-direction:column;
+}
+
+.post-header {
+    align-items:center;
+    border-bottom-color:rgb(239, 239, 239);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-left-color:rgb(0, 0, 0);
+    border-left-style:solid;
+    border-left-width:0px;
+    border-right-color:rgb(0, 0, 0);
+    border-right-style:solid;
+    border-right-width:0px;
+    border-top-color:rgb(0, 0, 0);
+    border-top-style:solid;
+    border-top-width:0px;
+    box-sizing:border-box;
+    color:rgb(38, 38, 38);
+    display:flex;
+    flex-direction:row;
+    flex-shrink:0;
+}
+
+.post-author-name {
+    align-items:flex-start;
+    border-bottom-color:rgb(0, 0, 0);
+    border-bottom-style:solid;
+    border-bottom-width:0px;
+    border-left-color:rgb(0, 0, 0);
+    border-left-width:0px;
+    border-right-color:rgb(0, 0, 0);
+    border-right-width:0px;
+    border-top-color:rgb(0, 0, 0);
+    border-top-style:solid;
+    border-top-width:0px;
+    box-sizing:border-box;
+    color:rgb(38, 38, 38);
+    display:flex;
+    flex-direction:column;
+}
