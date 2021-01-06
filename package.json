@@ -9,7 +9,7 @@
     "antd": "^4.3.1",
     "aws-amplify": "^3.0.16",
     "aws-amplify-react": "^4.1.15",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "formik": "^2.1.4",
     "jwt-decode": "^2.2.0",
